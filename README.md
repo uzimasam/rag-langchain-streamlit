@@ -1,58 +1,49 @@
-# RAG Langchain Streamlit Chatbot
+# rag-langchain Streamlit Application
 
-## Overview
-This project is a web-based AI chatbot an implementation of the Retrieval-Augmented Generation (RAG) model, built using Streamlit and Langchain. It answers questions relevant to the data provided by the user. The chatbot utilizes OpenAI's GPT-4 model and accepts data in CSV format. Users can upload multiple CSV files, clear uploaded files, ask questions, and view responses through a Streamlit interface.
+This is a Streamlit application that allows users to upload multiple files and generate responses using Gemini.
 
-[![Watch the video](https://img.youtube.com/vi/-hetFrk6gJs/maxresdefault.jpg)](https://youtu.be/-hetFrk6gJs)
+## Installation
 
+1. Clone the repository:
 
-## Features
-- Data Upload: Users can upload multiple CSV files containing the data they want the chatbot to learn from.
-- Clear Data: Users can clear all previously uploaded files, allowing the model to learn from new files.
-- Ask Questions: Users can ask questions related to the uploaded data, and the chatbot will generate responses based on its understanding of the data.
+    ```bash
+    git clone https://github.com/uzimasam/rag-langchain-streamlit.git
+    ```
 
-## Clone Repository
-Clone the repository:
-```bash
-git clone https://github.com/yourusername/rag-langchain-streamlit.git
-cd rag-langchain-streamlit
-```
+2. Navigate to the project directory:
 
-## Usage (Terminal )
-To run this project, you will need Python and the necessary packages. Follow these steps to set up the environment:
+    ```bash
+    cd rag-langchain-streamlit
+    ```
 
-Create and activate a virtual environment (optional but recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-```
+3. Install the required dependencies:
 
-Install the required packages:
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Set up your OpenAI API key in a .env file:
-```bash
-OPENAI_API_KEY=your_api_key_here
-```
+## Usage
 
-To start the Streamlit app, run the following command in your terminal:
-```bash
-streamlit run Langchain_streamlit.py
-```
+1. Run the Streamlit application:
 
-## Usage ( Visual Studio )
-Open Visual Studio .sln file
+    ```bash
+    streamlit run app.py
+    ```
 
-Set up your OpenAI API key in a .env file:
-```bash
-OPENAI_API_KEY=your_api_key_here
-```
+2. Open your web browser and go to `http://localhost:8501`.
 
-To start the Streamlit app, run the following command in visual Studio's terminal:
-```bash
-streamlit run Langchain_streamlit.py
-```
+3. Upload the files you want to process.
 
-Then, follow the instructions on the web interface to upload CSV files, ask questions, and view responses.
+4. Click on the "Generate Responses" button to generate responses using Gemini.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or need further assistance, feel free to contact the project maintainer at [uzimasamuel1@gmail.com](mailto:uzimasamuel1@gmail.com).
