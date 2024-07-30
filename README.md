@@ -36,7 +36,11 @@ This is a Streamlit application that allows users to upload multiple files and g
 
 4. Click on the "Generate Responses" button to generate responses using Gemini.
 
-## Contributing
+## Members
+
+DAN KIPYEGON - CS/MG/0798/0518
+ROYALE EDGAR - CS/MG/2004/09/21
+UZIMA SAMUEL - CS/MG/1578/09/21
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
