@@ -38,9 +38,9 @@ This is a Streamlit application that allows users to upload multiple files and g
 
 ## Members
 
-DAN KIPYEGON - CS/MG/0798/0518
-ROYALE EDGAR - CS/MG/2004/09/21
-UZIMA SAMUEL - CS/MG/1578/09/21
+1. DAN KIPYEGON - CS/MG/0798/0518
+2. ROYALE EDGAR - CS/MG/2004/09/21
+3. UZIMA SAMUEL - CS/MG/1578/09/21
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
